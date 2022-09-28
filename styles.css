@@ -1,0 +1,174 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caveat', cursive;
+  font-size: 1rem;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+/* navbar */
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nav-button {
+  background-color: #829460;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.8s;
+}
+
+.nav-button:hover {
+  background-color: #59CE8F;
+}
+
+/* heading */
+.big-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* icons */
+.icon {
+  color: #00FFD1;
+}
+
+
+
+/* note related */
+.notes-container {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+
+
+}
+
+.note-box {
+  flex-basis: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.note-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.note-body {
+  display: flex;
+  justify-content: center;
+}
+
+.remove-note-icon {
+  border-radius: 50%;
+  background-color: white;
+  color: #F32424;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+
+}
+
+
+.remove-note-icon:hover {
+ transform: scale(0.8);
+ transition: all 1s;
+}
+
+.textbox-heading {
+  background-color: inherit;
+  position: absolute;
+  top: 50px;
+  /* border: 3px solid black; */
+  border-width: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
+  font-weight: bold;
+  resize: none;
+}
+
+.textbox-heading:hover {
+  border: 3px solid rgba(178, 190, 181, 0.2);
+}
+
+.textbox-heading::placeholder {
+  font-size: 1.8rem;
+  color: black;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+}
+
+.textbox-body {
+  background-color: inherit;
+  position: absolute;
+  bottom: 20px;
+  border-width: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Caveat', cursive;
+  font-size: 1.2rem;
+  resize: none;
+}
+
+
+
+.textbox-body:hover {
+  border: 3px solid rgba(178, 190, 181, 0.2);
+}
+
+.textbox-body::placeholder {
+  font-size: 1.2rem;
+  color: black;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+}
+
+/* colors */
+.yellow {
+  background-color: #FFDE00;
+}
+
+.blue {
+  background-color: #89CFFD;
+}
+
+.green {
+  background-color: #59CE8F
+}
+
+.purple {
+  background-color: #A66CFF;
+}
+
+.brown {
+  background-color: #DFBB9D;
+}
+
+.orange {
+  background-color: #FF8D29;
+}
