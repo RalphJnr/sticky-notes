@@ -1,6 +1,5 @@
 var colors = ["yellow", "blue", "green", "purple", "brown", "orange"];
 var color = "";
-var boxClicked = "";
 
 
 $(".nav-button").click(function(){
